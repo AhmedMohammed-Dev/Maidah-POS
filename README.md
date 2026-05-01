@@ -26,7 +26,6 @@ A comprehensive, Arabic-first Restaurant & Cafe Management System designed to st
 *   **Styling:** Tailwind CSS (Modern & Responsive)
 *   **Icons:** Lucide React
 *   **Charts:** Recharts
-*   **AI Integration:** Google Gemini (@google/genai)
 *   **Desktop App:** Electron (Cross-platform builds)
 
 ### 🚀 Getting Started
@@ -76,7 +75,6 @@ A comprehensive, Arabic-first Restaurant & Cafe Management System designed to st
 *   **التنسيق والتصميم:** Tailwind CSS (تصميم عصري ومتجاوب)
 *   **الأيقونات:** Lucide React
 *   **الرسوم البيانية:** Recharts
-*   **الذكاء الاصطناعي:** Google Gemini (@google/genai)
 *   **تطبيق سطح المكتب:** Electron
 
 ### 🚀 البدء في العمل
