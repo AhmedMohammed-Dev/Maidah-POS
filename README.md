@@ -32,7 +32,7 @@ A comprehensive, Arabic-first Restaurant & Cafe Management System designed to st
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/AhmedMohammed-Dev/Maidah-POS.git
+    git clone https://github.com/your-username/your-repo-name.git
     ```
 2.  **Install dependencies:**
     ```bash
@@ -50,6 +50,16 @@ A comprehensive, Arabic-first Restaurant & Cafe Management System designed to st
     ```bash
     npm run electron:build
     ```
+
+### 🤝 Support & Contribution
+If you find this project helpful, you can support it by:
+- Giving it a ⭐️ on GitHub.
+- Submitting Pull Requests for new features or bug fixes.
+- Sharing the project with others.
+
+#### 💰 Financial Support
+If you'd like to support the continuous development of this system:
+- **PayPal:** [https://www.paypal.com/paypalme/Ahmedmuham]
 
 ---
 
@@ -81,7 +91,7 @@ A comprehensive, Arabic-first Restaurant & Cafe Management System designed to st
 
 1.  **تحميل المشروع:**
     ```bash
-    git clone https://github.com/AhmedMohammed-Dev/Maidah-POS.git
+    git clone https://github.com/your-username/your-repo-name.git
     ```
 2.  **تثبيت المكتبات:**
     ```bash
@@ -99,6 +109,16 @@ A comprehensive, Arabic-first Restaurant & Cafe Management System designed to st
     ```bash
     npm run electron:build
     ```
+
+### 🤝 الدعم والمساهمة
+إذا وجدت هذا المشروع مفيداً، يمكنك دعمه من خلال:
+- إعطاء نجمة ⭐️ للمستودع على GitHub.
+- إرسال طلبات سحب (Pull Requests) لميزات جديدة أو إصلاح أخطاء.
+- مشاركة المشروع مع الآخرين.
+
+#### 💰 الدعم المادي
+إذا كنت ترغب في دعم استمرار وتطوير هذا النظام مادياً:
+- **PayPal:** [https://www.paypal.com/paypalme/Ahmedmuham]
 
 ---
 
