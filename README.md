@@ -32,7 +32,7 @@ A comprehensive, Arabic-first Restaurant & Cafe Management System designed to st
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/AhmedMohammed-Dev/Maidah-POS.git
     ```
 2.  **Install dependencies:**
     ```bash
@@ -91,7 +91,7 @@ If you'd like to support the continuous development of this system:
 
 1.  **تحميل المشروع:**
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/AhmedMohammed-Dev/Maidah-POS.git
     ```
 2.  **تثبيت المكتبات:**
     ```bash
