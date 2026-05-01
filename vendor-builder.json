@@ -1,0 +1,25 @@
+{
+  "appId": "com.sales.vendor",
+  "productName": "Maidah License Manager",
+  "copyright": "Copyright © 2024",
+  "files": [
+    "dist/**/*",
+    "electron-vendor.js",
+    "package.json"
+  ],
+  "directories": {
+    "output": "release-vendor"
+  },
+  "win": {
+    "target": "nsis",
+    "icon": "public/icon.ico"
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true,
+    "installerIcon": "public/icon.ico",
+    "uninstallerIcon": "public/icon.ico",
+    "artifactName": "${productName}-Setup-${version}.exe"
+  }
+}

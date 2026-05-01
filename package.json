@@ -1,0 +1,70 @@
+
+{
+  "name": "sales-management-system",
+  "version": "2.1.0",
+  "private": true,
+  "main": "electron.js",
+  "type": "module",
+  "description": "نظام إدارة مبيعات وكاشير متكامل - نسخة مفتوحة",
+  "author": "POS Systems",
+  "dependencies": {
+    "@google/genai": "*",
+    "electron-updater": "^6.1.7",
+    "lucide-react": "^0.292.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0",
+    "recharts": "^2.10.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vitejs/plugin-react": "^4.2.0",
+    "autoprefixer": "^10.4.16",
+    "concurrently": "^8.2.2",
+    "cross-env": "^7.0.3",
+    "electron": "^28.1.0",
+    "electron-builder": "^24.9.1",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0",
+    "wait-on": "^7.2.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "electron:dev": "concurrently -k \"cross-env BROWSER=none npm run dev\" \"wait-on http://localhost:3000 && electron .\"",
+    "electron:build": "npm run build && electron-builder",
+    "vendor:dev": "concurrently -k \"cross-env BROWSER=none npm run dev\" \"wait-on http://localhost:3000 && electron electron-vendor.js\"",
+    "vendor:build": "npm run build && electron-builder --config vendor-builder.json -c.extraMetadata.main=electron-vendor.js"
+  },
+  "build": {
+    "appId": "com.sales.pos.open",
+    "productName": "Sales Management System",
+    "copyright": "Copyright © 2024",
+    "files": [
+      "dist/**/*",
+      "electron.js",
+      "package.json"
+    ],
+    "directories": {
+      "output": "release"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "public/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "نظام المبيعات",
+      "installerIcon": "public/icon.ico",
+      "uninstallerIcon": "public/icon.ico",
+      "runAfterFinish": true
+    }
+  }
+}
